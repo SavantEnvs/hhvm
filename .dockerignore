@@ -1,0 +1,6 @@
+# .dockerignore for the commit-image build: the FULL repo (incl. .git) goes in.
+# Only the integration's own build output is excluded (upstream tracks build/ dirs, so no
+# generic build/ pattern here).
+mayhem/out/
+.DS_Store
+*.swp

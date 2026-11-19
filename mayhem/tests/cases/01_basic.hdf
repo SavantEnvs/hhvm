@@ -1,0 +1,7 @@
+# comment line
+Server.Port = 8080
+Server.Name = example.com
+Log {
+  Level = Warning
+  UseLogFile = true
+}

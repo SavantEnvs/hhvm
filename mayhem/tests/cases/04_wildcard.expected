@@ -1,0 +1,13 @@
+Hosts {
+  0 {
+    Pattern = foo
+  }
+  1 {
+    Pattern = bar
+  }
+}
+GET Server.Port = (null)
+GET A.B = (null)
+GET D.B = (null)
+GET Eval.Jit = (null)
+GET Sp = (null)

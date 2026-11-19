@@ -1,0 +1,8 @@
+Hosts {
+  * {
+    Pattern = foo
+  }
+  * {
+    Pattern = bar
+  }
+}

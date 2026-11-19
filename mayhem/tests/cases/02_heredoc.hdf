@@ -1,0 +1,5 @@
+Motd << EOM
+line one
+line two
+EOM
+After = 1

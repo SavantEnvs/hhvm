@@ -1,0 +1,9 @@
+project: savantenvs/hhvm
+target: fuzz_hdf_read_string
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_hdf_read_string/testsuite
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_hdf_read_string
+    libfuzzer: true
+    timeout: 5

@@ -1,0 +1,6 @@
+Eval.Jit = 0
+Eval.Jit = 1
+Eval {
+  JitPGO = false
+}
+Eval.AllowHhas = true
